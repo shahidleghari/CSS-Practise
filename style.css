@@ -1,0 +1,19 @@
+/* descendant selector */
+p a {
+color: black;
+background-color: yellow;
+
+}
+
+div> input{
+    background-color: black;
+}
+
+button:hover{
+    background-color:black ;
+    color: aqua;
+}
+ input[type="radio"]:checked+label
+ {
+   color: blue;
+ }
